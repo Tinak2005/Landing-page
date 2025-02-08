@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.seperator {
+    height: 1vh;
+    background-color: rgb(91, 87, 87);
+}
+
+.navbar {
+    height: 8vh;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo .menu {
+    visibility: collapse;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8vh;
+    padding: 0px 20px;
+    width: 80vw;
+}
+
+.nav .leftnav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8vh;
+    list-style-type: none;
+    gap: 4vw;
+    font-weight: bold;
+
+}
+
+.nav .rightnav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.rightnav ul .login {
+    height: 4.4vh;
+    width: 6vw;
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+    font-size: small;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.rightnav ul .download {
+    height: 5vh;
+    width: 10vw;
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+    font-size:10px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.main .intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 40px;
+}
+
+.leftcontent {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.leftcontent h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.leftcontent p {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.buttons button {
+    height: 7vh;
+    width: 14vw;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    font-size:small;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.rightcontent img {
+    width: 30vw;
+}
+
+.pricing {
+    margin: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.head h1 {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head p {
+    font-size: 23px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 0px;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    border: solid gray 2px;
+    border-radius: 15px;
+    padding: 20px;
+    width: 18vw;
+}
+
+.card1 .type {
+    display: inline;
+    background-color: rgb(135, 203, 226);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.card1 .button {
+    width: 98%;
+    height: 5vh;
+    margin: auto;
+    border-radius: 6px;
+    border: solid blue 3px;
+    color: blue;
+    font-size: small;
+    font-weight: bolder;
+    text-align: center;
+    padding: 4px 0px;
+    box-sizing: border-box;
+}
+
+.buttoncard {
+    background-color: blue;
+    color: white;
+    width: 98%;
+    height: 5vh;
+    margin: auto;
+    border-radius: 6px;
+    color: white;
+    font-size: small;
+    font-weight: bolder;
+    text-align: center;
+    padding: 6px 0px;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 80vw;
+    height: 20vh;
+    border-radius: 20px;
+    text-align: center;
+    padding: 20px 0;
+    box-sizing: border-box;
+    background-color: rgb(0, 80, 241);
+}
+
+.box h1 {
+    color: white;
+    font-size: 27px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.box button {
+    border-radius: 10px;
+    margin: 10px 0px;
+    width: 10vw;
+    height: 5vh;
+    background-color: rgb(0, 80, 241);
+    border: none;
+    font-size: 1.3vw;
+    font-weight: bold;
+    color: white;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 30px auto;
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.email input {
+    width: 28vw;
+    height: 6vh;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.263);
+    border: solid gray 2px;
+    ;
+}
+
+.email button {
+    height: 6vh;
+    width: 10vw;
+    border-radius: 6px;
+    background-color: blue;
+    color: white;
+    font-size: small;
+    font-weight: bolder;
+    text-align: center;
+}
+.hover:hover{
+    border:solid 2px blue;
+    background-color: white;
+    color:blue;
+    cursor:pointer;
+}
+
+@media only screen and (max-width:680px) {
+    .navbar {
+        height: 50vh;
+        padding: 0px 20px;
+        flex-direction: column;
+        align-items: start;
+        justify-content: center;
+        margin: 0px;
+        gap: 0px;
+
+    }
+
+    .logo {
+        height: 13vh;
+        text-align: center;
+        width: 99%;
+    }
+
+    .logo .menu {
+        visibility: visible;
+    }
+
+    .nav {
+        flex-direction: column;
+        width: 99%;
+        height: 40vh;
+        align-items: flex-start;
+        /* background-color:lightblue; */
+        border-radius: 10px;
+    }
+
+    .nav .leftnav ul {
+        flex-direction: column;
+        height: 30vh;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .nav .rightnav ul {
+        justify-content: flex-start;
+        gap: 10px;
+        width: 50vw;
+        margin: 8px 0px;
+    }
+
+    .rightnav ul .login {
+        height: 5vh;
+        width: 15vw;
+    }
+
+    .rightnav ul .download {
+        height: 6vh;
+        width: 25vw;
+    }
+
+    .buttons button {
+        font-size: 13px;
+        width: 90px;
+    }
+
+    .main .intro {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .head h1 {
+        font-size: 20px;
+    }
+
+    .head p {
+        font-size: 13px;
+    }
+
+    .intro h1 {
+        font-size: 23px;
+    }
+
+    .intro p {
+        font-size: 13px;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .cards .card1 {
+        width: 150px;
+    }
+
+    .box h1 {
+        font-size: 20px;
+    }
+
+    .box button {
+        font-size: 10px;
+    }
+
+    .email input {
+        font-size: 10px;
+    }
+
+    .email button {
+        width: 50px;
+        font-size: 10px;
+    }
+
+    .rightcontent img {
+        width: 260px;
+    }
+}
